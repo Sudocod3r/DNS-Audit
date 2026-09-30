@@ -155,7 +155,7 @@ Enter the domain to audit (example: contoso.com):
 Example:
 
 ```text
-hawkvalveinc.com
+example.com
 ```
 
 Do not include `https://`.
@@ -173,7 +173,7 @@ Desktop\DNS-Audits
 Example filename:
 
 ```text
-DNS-Audit_hawkvalveinc.com_2026-09-30_104618.txt
+DNS-Audit_example.com_2026-09-30_104618.txt
 ```
 
 This makes it easy to keep historical DNS audits and compare changes over time.
