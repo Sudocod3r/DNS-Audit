@@ -1,9 +1,3 @@
-from pathlib import Path
-
-path = Path("/mnt/data/README.md")
-
-readme = r"""# DNS Audit PowerShell Script
-
 <p align="center">
   <strong>Reusable PowerShell DNS auditing for MSPs, sysadmins, and Microsoft 365 environments.</strong>
 </p>
@@ -406,5 +400,4 @@ Review findings before making DNS changes. A record that appears unused may stil
 Use and modify this script as needed for internal administration, troubleshooting, or MSP workflows.
 """
 
-path.write_text(readme, encoding="utf-8")
-print(f"Updated: {path}")
+
